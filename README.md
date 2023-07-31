@@ -5,10 +5,23 @@
 
 3.Some Screenshots of the website are attached below:-
 
-![Screenshot 2023-07-31 115544](https://github.com/Akku2002/News-Scoop/assets/91628758/f1eb530c-8628-4164-8e83-3f7d5df4adf5)
-![Uploading Screenshot 2023-07-31 115505.png…]()
+# Home-page:-
 
-![Uploading Screenshot 2023-07-31 115413.png…]()
-![Uploading Screenshot 2023-07-31 115335.png…]()
+![Screenshot 2023-07-31 115257](https://github.com/Akku2002/News-Scoop/assets/91628758/d3efd96d-b16d-489c-a0a0-f6887090587f)
 
-![Screenshot 2023-07-31 115257](https://github.com/Akku2002/News-Scoop/assets/91628758/ad95cce4-342f-4044-81d1-0e7ec7aa3b51)
+# Reading the Innovation news as given in the navigation and sharing the post :-
+
+![Screenshot 2023-07-31 115335](https://github.com/Akku2002/News-Scoop/assets/91628758/d73c3c47-5cdc-491a-b4c1-e6ae4dfcf9d1)
+
+# To Read the News, click on the post and it will ask you to confirm to go to the source news website:-
+
+![Screenshot 2023-07-31 115413](https://github.com/Akku2002/News-Scoop/assets/91628758/616ad53b-7b0f-4cee-8384-1e7da6e0f937)
+
+# Searching the news of my preference using search bar such as news about Virat Kohli:-
+
+![Screenshot 2023-07-31 115505](https://github.com/Akku2002/News-Scoop/assets/91628758/277fe25e-8800-45e5-b0cf-19408f893713)
+
+# Footer Section of the Website:-
+
+![Screenshot 2023-07-31 115544](https://github.com/Akku2002/News-Scoop/assets/91628758/c624c756-8fe7-411a-93eb-df4a58107b34)
+
