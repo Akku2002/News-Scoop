@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./share-buttons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="news-app-logo" onclick="reload()">
+                <!-- <img src="./NEWSOOP.png" alt="news-app-logo"> -->
+                <video autoplay muted>
+                    <source src="media-files/news-logo-video.mp4" type="video/mp4">
+                    Your Browser doesn't support video tag
+                </video>
+            </a>
+        
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item">Cricket</li>
+                    <li class="hover-link nav-item">Politics</li>
+                    <li class="hover-link nav-item">Innovation</li>
+                </ul>
+            </div>
+
+            <div class="search-bar flex" >
+                <input type="text" class="news-input" placeholder="e.g.Technology">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="card-container container flex"></div>
+    </main>
+
+    <template id="template-card-container">
+        <div class="card">
+            <div class="main-card">
+                <div class="card-image">
+                    <img src="" alt="news-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="news-title"></h2>
+                    <h5 class="publish-date"></h5>
+                    <p class="news-description"></p>
+                </div>
+            </div>
+            
+            <div class="share-buttons">
+                <span>SHARE THIS POST</span>
+                <button type="button"class="share-button facebook"><img src="../Project News Website/media-files/Facebook.png" alt="facebook-logo"></button>
+                <button type="button" class="share-button twitter"><img src="../Project News Website/media-files/Twitter.png" alt="twitter-logo"></button>
+                <button type="button" class="share-button linkedin"><img src="../Project News Website/media-files/Linkedin.png" alt="linkedin-logo"></button>
+                <button type="button" class="share-button instagram"><img src="../Project News Website/media-files/Instagram.png" alt="instagram-logo"></button>
+            </div>
+        </div>
+    </template>
+
+    <footer>
+        <address>
+            <ul class="container flex">
+
+                <li id="twitter">
+                    <a href="https://twitter.com/AakashChhimwal" title="Aakash Chhimwal, on Twitter" target="_blank">
+                        <img class="social-media-handle" src="media-files/Twitter.png" alt="twitter-logo">
+                    </a>
+                </li>
+
+                <li id="linkedin" >
+                    <a href="https://www.linkedin.com/in/aakash-chhimwal-a8b309221/" title="Aakash Chhimwal, on Linkedin" target="_blank">
+                        <img class="social-media-handle" src="media-files/Linkedin.png" alt="linkedin-logo">
+                    </a>
+                </li>
+
+                <li id="github">
+                    <a href="https://github.com/Akku2002" target="_blank" title="Aakash Chhimwal, on Github">
+                        <img class="social-media-handle" src="media-files/Github.png" alt="github-logo">
+                    </a>
+                </li>
+
+                <li id="mail">
+                    <a href="mailto:chhimwalaakash@gmail.com" target="_blank" title="mail, Aakash Chhimwal">
+                        <img class="social-media-handle" src="media-files/Mail.png" alt="mail-logo">
+                    </a>
+                </li>
+
+            </ul>
+        </address>
+        <div id="site-navigation">
+            <hr><a href="#">Home</a>
+            <p></p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
